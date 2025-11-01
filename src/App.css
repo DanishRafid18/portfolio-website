@@ -1,4 +1,15 @@
 /* Smooth scrolling & font setup */
+@font-face {
+      font-family: 'Montserrat';
+      src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype'); 
+      font-weight: normal; 
+      font-style: normal; 
+}
+
+p, span{
+  font-family: 'Montserrat';
+}
+
 html {
   scroll-behavior: smooth;
   max-width: 1280;
@@ -8,17 +19,26 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+h1{
+  font-family: 'Montserrat';
+}
+
+
 @media (max-width: 1024px) {
   .responsive-wrap {
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items:flex-start;
   }
-
-  .name-div{
-
-    margin-left: 0;
+  .Name{
+    font-size: 30px;
   }
 }
-
+@media (min-width: 1025px) {
+  .header-div{
+    position: sticky;
+    height: 100vh;
+  }
+}
 
 @import "tailwindcss";
