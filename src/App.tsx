@@ -1,4 +1,3 @@
-import { useLayoutEffect, useRef } from "react";
 import "./App.css";
 import "./assets/fonts/Montserrat-VariableFont_wght.ttf"
 
