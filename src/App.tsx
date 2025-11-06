@@ -4,8 +4,8 @@ import "./assets/fonts/Montserrat-VariableFont_wght.ttf"
 function App() {
   return (
     <>
-      <div className="mx-auto max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0">
-        <div className="flex justify-between gap-4 max-w-screen-xl mx-auto responsive-wrap ">
+      <div className="max-w-screen-xl px-6 py-12 font-sans md:px-12 md:py-16 lg:py-0 content" style={{ marginInline: "auto" }}>
+        <div className="flex justify-between gap-4 max-w-screen-xl responsive-wrap ">
           <header className="header-div lg:top-0 lg:flex lg:flex-col lg:justify-between lg:flex-none w-[45%] lg:py-24">
             <div>
               <p className="Name text-[48px] pb-5 leading-none font-bold bg-gradient-to-t from-fuchsia-600 to-pink-600 bg-clip-text text-transparent">
