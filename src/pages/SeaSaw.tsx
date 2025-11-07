@@ -46,13 +46,12 @@ function SeaSaw() {
   }, []);
 
   return (
+    <div className="seasaw-container">
     <>
-      {/* 🟢 content before */}
       <section style={{ minHeight: "100vh"}}>
         <Content />
       </section>
 
-      {/* 🎬 pinned section */}
       <div
         ref={containerRef}
         className="scroll-container"
@@ -62,7 +61,7 @@ function SeaSaw() {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          zIndex: 1, // 👈 ensure it doesn't overlay too long
+          zIndex: 1,
         }}
       >
         <img
@@ -77,13 +76,13 @@ function SeaSaw() {
         />
       </div>
 
-      {/* 🔵 content after */}
       <section style={{ minHeight: "100vh" }}>
         <h2 style={{ paddingTop: "40vh", textAlign: "center" }}>
           Animation complete — continue scrolling!
         </h2>
       </section>
     </>
+    </div>
   );
 }
 
