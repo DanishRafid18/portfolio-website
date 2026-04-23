@@ -37,8 +37,17 @@ function Home() {
             <div className="experience">
               <ol>
                 <li className="mb-7">
+                  <span className="font-bold bg-gradient-to-t from-fuchsia-600 to-pink-600 bg-clip-text text-transparent ">Web Developer (Casual)  · Conscierra</span><br/>
+                  <p className="italic mb-[5px]">March 2026 - Present</p>
+                  <span className="font-bold bg-gradient-to-t from-fuchsia-600 to-pink-600 bg-clip-text text-transparent ">Web Developer Intern · Conscierra</span><br/>
+                  <p className="italic mb-[5px]">December 2025 - March 2026</p>
+                  <p className="mb-[8px]">Working on Conscierra and client websites built on WordPress, including content updates and page
+                    maintenance. Also assisting with basic automation tasks in Microsoft Power Automate to streamline internal
+                    workflows.</p>
+                </li>
+                <li className="mb-7">
                   <span className="font-bold bg-gradient-to-t from-fuchsia-600 to-pink-600 bg-clip-text text-transparent ">Lead Programmer · SeaSaw</span><br/>
-                  <p className="italic mb-[5px]">2025 - PRESENT</p>
+                  <p className="italic mb-[5px]">2025</p>
                   <p className="mb-[8px]">Led the full programming of SeaSaw, a two-player balance board game, using Unity integrated with Arduino sensors, while
                   also contributing to the system’s design throughout a
                   semester-long course at the University of Queensland.</p>
